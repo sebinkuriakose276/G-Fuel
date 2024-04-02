@@ -4,9 +4,8 @@ import './App.css';
 import RegistrationForm from './RegistrationForm';
 import SuccessPage from './SuccessPage';
 import ErrorPage from './ErrorPage';
-//import Test from './Test';
-import LoginPage from './LoginPage'; // Include this if you have a login page
-
+import FrontPage from './FrontPage'
+import LoginPage from './LoginPage';
 function App() {
   return (
       <div className="App">
@@ -15,6 +14,7 @@ function App() {
           <Route path="/success" element={<SuccessPage/>} />
           <Route path="/error" element={<ErrorPage/>} />
           <Route path="/" exact element={<LoginPage/>} />
+          <Route path="/frontpage" element={<FrontPage/>} />
 
         </Routes>
       </div>
