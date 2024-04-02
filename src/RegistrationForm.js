@@ -28,9 +28,9 @@ function RegistrationForm() {
     navigate('/success');
   };
 
-  const goToLoginPage = () => {
-    navigate('/login');
-  };
+  //const goToLoginPage = () => {
+    //navigate('/login');
+  //};
 
   return (
     <div className="registration-form-container">
