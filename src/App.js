@@ -10,7 +10,7 @@ function App() {
   return (
       <div className="App">
         <Routes>
-          <Route path="/registration" exact element={<RegistrationForm/>} />
+          <Route path="/signup" exact element={<RegistrationForm/>} />
           <Route path="/success" element={<SuccessPage/>} />
           <Route path="/error" element={<ErrorPage/>} />
           <Route path="/" exact element={<LoginPage/>} />
