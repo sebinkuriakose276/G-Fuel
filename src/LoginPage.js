@@ -1,3 +1,4 @@
+//import BackIcon from './back-icon.svg';
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './LoginPage.css'; // Import the CSS file for the component
@@ -25,6 +26,7 @@ function LoginPage() {
             />
             <input
               type="password"
+
               name="password"
               placeholder="Password"
               className="form-input"
